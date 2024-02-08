@@ -39,5 +39,5 @@ test("coe demo", async ({ page }) => {
   await page.waitForSelector('text="Popups"');
   await page.waitForTimeout(10000);
   // Close the current browser context
-  await this.page.context().close();
+  //await this.page.context().close();
 });
